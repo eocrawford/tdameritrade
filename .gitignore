@@ -112,4 +112,4 @@ docs/api
 python_junit.xml
 # IDE
 .ctrlpignore
-
+*.swp
