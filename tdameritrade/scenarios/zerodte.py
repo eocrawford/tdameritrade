@@ -1,2 +1,3 @@
-from tdameritrade import client
+from tdameritrade import TDClient
 
+tdc = TDClient()
