@@ -11,4 +11,5 @@ from tdameritrade import auth
 #auth.authentication(os.environ["TDAMERITRADE_CLIENT_ID"], os.environ["TDAMERITRADE_CALLBACK_URL"])
 
 tdc = TDClient()
-tdc.options('SPX')
+# tdc.hours()
+print(tdc.options('SPX'))
